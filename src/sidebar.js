@@ -11,10 +11,10 @@ const Sidebar = () => {
     <Menu>
     <img id="author" src={ishreet2} alt = "author" />
 
-    <a id="Ishreet">
+    <a href="#/" id="Ishreet">
         Ishreet Grewal
       </a>
-      <a id="email"> ishreetgrewal2003@gmail.com </a>
+      <a href="#/" id="email"> ishreetgrewal2003@gmail.com </a>
 
       <a className="menu-item" href="/Home">
         Home
@@ -34,15 +34,15 @@ const Sidebar = () => {
       </a>
 
       <a href="https://www.linkedin.com/in/ishreet-grewal-2450b0225/" target="_blank" rel="noreferrer">
-  <img id="link2" src={linkedin} />
+  <img id="link2" src={linkedin} alt = "logo "/>
 </a>
 
 <a href="https://github.com/IshreetG" target="_blank" rel="noreferrer"> 
-  <img id="link1" src={github} />
+  <img id="link1" src={github} alt = "logo " />
 </a>
 
 <a href="https://www.instructables.com/member/ishreetgrewal1/?publicPreview=true" target="_blank" rel="noreferrer"> 
-  <img id="link3" src={instr} />
+  <img id="link3" src={instr} alt = "logo " />
 </a>
 
     </Menu>
