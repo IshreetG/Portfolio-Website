@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
     <Sidebar/>
     <Routes>
-      <Route path='/Home' element={<Home />} />
+      <Route path='/' element={<Home />} />
         <Route path='/About' element={<About />} />
         <Route path='/Resume' element={<Resume />} />
         <Route path='/Projects' element={<Projects />} />
