@@ -16,7 +16,7 @@ const Sidebar = () => {
       </a>
       <a href="#/" id="email"> ishreetgrewal2003@gmail.com </a>
 
-      <a className="menu-item" href="/Home">
+      <a className="menu-item" href="/">
         Home
       </a>
 
