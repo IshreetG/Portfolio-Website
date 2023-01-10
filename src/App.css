@@ -75,9 +75,11 @@ h5 {
 }
 .mainishreet {
   background-image: url("./Images/ishreet1.jpg");
-  min-height: 900px;
+  min-height:900px;
   background-image: cover;
   background-position: center;
+  background-size: 99%;
+
 
 } 
 #author {
@@ -118,12 +120,13 @@ h5 {
 }
 #logobrown{
   width: 450px;
-  height: 600px;
+  height: 600px; 
   border-radius: 50px;
   margin-top: 80px;
   flex-direction: row;
   display: flex;
   margin-left: 300px;
+
 
 }
 #email{

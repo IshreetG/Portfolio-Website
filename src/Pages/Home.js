@@ -1,6 +1,4 @@
 import React from 'react'; 
-//import Sidebar from '../sidebar'; 
-//import ishreet from '../Images/ishreet1.jpg';
 import '../App.css';
 
 function Home() {
