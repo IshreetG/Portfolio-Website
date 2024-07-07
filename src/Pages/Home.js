@@ -9,8 +9,8 @@ function Home() {
             <div class="caption1">
               <span class="border1">
                 <h1>Hi,</h1>
-                <h2>I'm Ishreet</h2>
-                <h3> Welcome To My Portfolio </h3>
+                <h2>I'm Ishreet Grewal</h2>
+                <h3> Welcome To My Portfolio! </h3>
 
 
   </span>

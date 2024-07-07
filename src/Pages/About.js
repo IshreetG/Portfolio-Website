@@ -1,5 +1,5 @@
 import React from 'react'; 
-import aboutish from '../Images/logoishreet.jpg';
+import aboutish from '../Images/ishreetsidebar.jpg';
 
 function About() {
     return (

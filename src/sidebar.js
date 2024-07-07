@@ -1,6 +1,6 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
-import ishreet2 from './Images/IMG_8031.jpg';
+import ishreet2 from './Images/ishreet2.jpg';
 import linkedin from './Images/logolink.png';
 import github from './Images/github.jpeg';
 import instr from './Images/instructables.png';

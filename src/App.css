@@ -1,6 +1,7 @@
 html,
 body {
   margin: 0;
+  height:100%
 }
 h1 {
   text-align: left;
@@ -8,7 +9,8 @@ h1 {
   margin-left: 200px; 
   font-family: Didot, serif;
   font-size: 75px;
-  color:#d3c1c1da;;
+  /*color:#d3c1c1da; */
+  color:#7d7d7d;
   font-weight: bolder;
   animation: fadeIn 3s;
 
@@ -19,9 +21,10 @@ h2 {
   margin-left: 200px; 
   font-family: Didot, serif;
   font-size: 75px;
-  color:#d3c1c1da;
+  /*color:#d3c1c1da; */
+  color:#7d7d7d;
   font-weight: bolder;
-  animation: fadeIn 3s;
+  animation: fadeIn 4s;
 
 }
 h3 {
@@ -29,9 +32,11 @@ h3 {
   margin-left: 200px; 
   font-family: Didot, serif;
   font-size: 50px;
-  color:#d3c1c1da;
+  /*color:#d3c1c1da; */
+  color:#7d7d7d;
   font-weight: bolder;
-  animation: fadeIn 3s;
+  animation: fadeIn 5s;
+
 
 }
 h4 {
@@ -53,8 +58,17 @@ h5 {
 
 }
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  /* 0% { opacity: 0; }
+  100% { opacity: 1; } */
+
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 #title {
   font-size: 55px;
@@ -63,7 +77,8 @@ h5 {
   font-family: Didot, serif;
   color:white;
   text-align: center;
-  background-color:#d3c1c1da;
+  /* background-color:#d3c1c1da; */
+  background-color:#b5b2b2;
 }
 #about {
   background-color: white;
@@ -74,11 +89,20 @@ h5 {
   background-color:white; */
 }
 .mainishreet {
-  background-image: url("./Images/ishreet1.jpg");
-  min-height:900px;
+  /*background-image: url("./Images/ishreet1.jpg");
+   min-height:900px;s
   background-image: cover;
   background-position: center;
   background-size: 99%;
+*/
+  background-image: url("/Users/ishreetgrewal/Desktop/my-react-app/src/Images/background1.jpeg");
+
+  background-image: cover;
+  background-position: center; /* adjust the position */
+  background-repeat: no-repeat; /* or use repeat, repeat-x, repeat-y */
+  background-size: 100%;
+  min-height:800px;
+
 
 
 } 
@@ -103,7 +127,8 @@ h5 {
   margin-left: 800px;
   margin-top: 50px;
   margin-bottom: -190px;
-  color:#d3c1c1da;
+  /* color:#d3c1c1da; */
+  color:#7d7d7d;
   line-height: 1.5;
   font-family: Didot, serif;
 }
@@ -115,7 +140,8 @@ h5 {
   height: 500px;
   margin-top: 250px;
   margin-left: 50px;
-  color:#d3c1c1da;
+  /* color:#d3c1c1da; */
+  color:#7d7d7d;
   line-height: 2;
 }
 #logobrown{
@@ -230,12 +256,12 @@ h6 {
   color: #000000;
 
 }
-.border1 {
+/* .border1 {
   background-color: transparent;
   font-size:25px;
   color: #000000;
 
-}
+} */
 #tex1 {
   color: #777;
   background-color:white;
@@ -313,7 +339,8 @@ h6 {
 }
 
 .bm-burger-bars {
-  background:#d1c4c4da; 
+  /* background:#d1c4c4da;  */
+  background:#7d7d7d;
 }
 
 .bm-cross-button {
@@ -326,7 +353,9 @@ h6 {
 }
 
 .bm-menu {
-  background:#d1c4c4da;
+  /* background:#d1c4c4da; */
+  /* background:#7d7d7d; */
+  background:#b5b2b2;;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }

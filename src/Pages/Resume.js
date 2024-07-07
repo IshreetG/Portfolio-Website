@@ -1,5 +1,5 @@
 import React from 'react'; 
-import resumepic from '../Images/resume2023.png';
+import resumepic from '../Images/resume2024.png';
 
 function Resume() {
     return (
