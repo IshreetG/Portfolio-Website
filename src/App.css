@@ -95,7 +95,7 @@ h5 {
   background-position: center;
   background-size: 99%;
 */
-  background-image: url("/Users/ishreetgrewal/Desktop/my-react-app/src/Images/background1.jpeg");
+  background-image: url("./Images/background1.jpeg");
 
   background-image: cover;
   background-position: center; /* adjust the position */
